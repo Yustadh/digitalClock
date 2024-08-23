@@ -10,4 +10,4 @@ function runClock(){
     document.getElementById('digitalClock').textContent=timeString;
 }
 runClock();
-setInterval(runClock,1000)
+setInterval(runClock,1000);

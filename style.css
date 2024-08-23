@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-image: url(https://via.placeholder.com/150);
+    background-image: url(./image/space.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +11,10 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height:100vh; 
+    color: wheat;
 }
+
 digitalClock{
     font-family: monospace;
     font-size: 6.5rem;
@@ -21,4 +23,5 @@ digitalClock{
     backdrop-filter: blur(5px);
     width:100%;
     background-color: hsl(231, 29%, 74%);
+    
 }
